@@ -1,0 +1,4 @@
+body {
+  background-color: gainsboro;
+  -webkit-app-region: drag;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "electron-drag-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && npx electron ./dist/index.js"
+  },
+  "devDependencies": {
+    "electron": "^6.0.7",
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.2"
+  }
+}
